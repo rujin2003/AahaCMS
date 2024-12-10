@@ -29,9 +29,22 @@
 		186251BE2CA9B82E00E63121 /* AahaCMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AahaCMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1842EE3A2CC7DAC80098A7E2 /* Exceptions for "AahaCMS" folder in "AahaCMS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 186251A32CA9B82C00E63121 /* AahaCMS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		186251A62CA9B82C00E63121 /* AahaCMS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1842EE3A2CC7DAC80098A7E2 /* Exceptions for "AahaCMS" folder in "AahaCMS" target */,
+			);
 			path = AahaCMS;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,10 @@
 				DEVELOPMENT_TEAM = C7RX29D33F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AahaCMS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "please let me use the camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo library please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +445,10 @@
 				DEVELOPMENT_TEAM = C7RX29D33F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AahaCMS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "please let me use the camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo library please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
